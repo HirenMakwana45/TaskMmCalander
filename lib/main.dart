@@ -11,7 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Calander',
+      debugShowCheckedModeBanner: false,
+      title: 'CalanderMM',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xff273F64)),
         useMaterial3: true,
